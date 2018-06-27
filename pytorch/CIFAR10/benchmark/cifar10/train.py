@@ -73,7 +73,7 @@ def correct(outputs, targets, top=(1, )):
     targets = targets.view(-1, 1).expand_as(predictions)
 
     corrects = predictions.eq(targets).cpu().int().cumsum(1).sum(0)
-    tops = list(map(lambda k: corrects.data[0][k - 1], top))
+    tops = list(map(lambda k: corrects.data[k - 1], top))
     return tops
 
 
