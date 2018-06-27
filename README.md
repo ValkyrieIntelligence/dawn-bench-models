@@ -100,6 +100,7 @@ python3 -m basic.cli --mode train --noload --len_opt --cluster
 ### Test
 
 ```
+cd tensorflow/SQuAD
 python3 -m basic.cli --len_opt --cluster
 ```
 
