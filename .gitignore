@@ -3,3 +3,9 @@ __pycache__/
 .eggs/
 *.egg-info/
 .cache
+
+dawnenv
+
+tensorflow/CIFAR10/data
+tensorflow/CIFAR10/cifar10
+tensorflow/SQuAD/data

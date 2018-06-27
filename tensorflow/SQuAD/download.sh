@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DATA_DIR=$HOME/data
+DATA_DIR=./data
 mkdir $DATA_DIR
 
 # Download SQuAD
@@ -22,4 +22,4 @@ unzip $GLOVE_DIR/glove.6B.zip -d $GLOVE_DIR
 
 # Download NLTK (for tokenizer)
 # Make sure that nltk is installed!
-python3 -m nltk.downloader -d $HOME/nltk_data punkt
+python3 -m nltk.downloader -d $DATA_DIR/nltk_data punkt

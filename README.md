@@ -42,6 +42,12 @@ sudo apt install python3
 
 5. Download data sets
 
+Download the CIFAR10 data set and copy it to the appropriate directories.
+
+```
+curl -o cifar-10-binary.tar.gz https://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz
+```
+
 6. Run benchmarks
 
 
